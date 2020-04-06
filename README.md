@@ -13,3 +13,8 @@ sort() and sorted()
     sort() - changes on hard copy. in-place sorting
     
     sorted() - returns a copy because an interable is passed in. You cannot "change" an iterable
+    
+enumerate()
+
+    enumerate() - returns enumerate object (tuples - immutable objects)
+    Each pair = (idx, value). Under the hood is a for loop appending to a list.
