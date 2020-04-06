@@ -3,16 +3,15 @@
 # returns enumerate object (tuples -immutable list)
 # each pair = (idx, value)
 
-letters = ['a', 'b', 'c']
-listOfLetters = []
+def enumeratee(iterable):
+    i = 0
+    for item in iterable:
+        yield i, item
+        i += 1
 
-n = 0
+lst = ['a', 'b', 'c']
 
-for letter in letters:
-    listOfLetters.append((n, letter))
-    n += 1
-
-print(listOfLetters)
+print(list(enumerate(lst)))
 
 # letters = ['a', 'b', 'c']
 # print(list(enumerate(letters)))
