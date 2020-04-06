@@ -5,12 +5,12 @@
 # instead it gives those numbers as we need them when looping over it
 # ON NEED BASIS
 
-for i in range(5):
-    pass
+def range(start, stop):
+    while start < stop:
+        yield start
+        start += 1
 
-for i in [0,1,2,3,4]:
-    pass
+for i in range(5, 10):
+    print(i)
 
-iterable = [0,1,2,3,4]
-for i in range(iterable):
-    pass
+
