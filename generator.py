@@ -1,11 +1,12 @@
 lst = [2, 3, 4]
 
 def generator(iterable):
-    yield iterable[0]
-    yield iterable[1]
-    yield iterable[2]
+    for i in iterable:
+        yield i
 
-# x = generator(lst)
+x = generator(lst)
+
+# next(x) equivalent to x.__next__()
 
 # print(x.__next__())
 # print(x.__next__())
