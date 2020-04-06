@@ -5,8 +5,12 @@ def generator(iterable):
     yield iterable[1]
     yield iterable[2]
 
-x = generator(lst)
+# x = generator(lst)
 
-print(x.__next__())
-print(x.__next__())
-print(x.__next__())
+# print(x.__next__())
+# print(x.__next__())
+# print(x.__next__())
+
+# generator objects are iterable
+for item in generator(lst):
+    print(item)
