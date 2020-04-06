@@ -14,6 +14,12 @@ sort() and sorted()
     
     sorted() - returns a copy because an interable is passed in. You cannot "change" an iterable
     
+reverse() and reversed()
+
+    reverse() - modifies in-place, doesn't return anything
+    
+    reversed() - returns a copy of iterable
+    
 enumerate()
 
     enumerate() - returns enumerate object (tuples - immutable objects)
