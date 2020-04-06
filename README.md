@@ -8,7 +8,7 @@ Generators
   
     Calling next() on a generator iterable resumes the execution from where yield was called (not at the beginning of the fuunction)
 
-Sort
+sort() and sorted()
 
     sort() - changes on hard copy. in-place sorting
     
