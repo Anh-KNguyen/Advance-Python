@@ -17,4 +17,5 @@ sort() and sorted()
 enumerate()
 
     enumerate() - returns enumerate object (tuples - immutable objects)
+    
     Each pair = (idx, value). Under the hood is a for loop appending to a list.
