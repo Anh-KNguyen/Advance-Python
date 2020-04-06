@@ -6,7 +6,7 @@ class List:
 
 # returns a copy
 # sorts iterable passed in
-# you cannot "change" a hard copy of an iterable
+# you cannot "change" an iterable
 
 # sorted(iterable, *, key=None, reverse=False)
 sorted(iterable)
