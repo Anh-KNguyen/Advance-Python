@@ -1,5 +1,5 @@
 class List:
-    def reverse() -> None: # modifies in place, doesn't return anything
+    def reverse(self) -> None: # modifies in place, doesn't return anything
         pass
 
 
