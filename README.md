@@ -18,6 +18,12 @@ Callbacks
 
     Callback function will execute once/if the first function completes.
 
+Lambda
+
+    Does function in-line. Only one line.
+    
+    Lambda lets you define a function as an expression and can also be passed into a function.
+
 sort() and sorted()
 
     sort() - changes on hard copy. in-place sorting
