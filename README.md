@@ -8,6 +8,11 @@ Generators
   
     Calling next() on a generator iterable resumes the execution from where yield was called (not at the beginning of the fuunction)
 
+Functional Programming - Annonymous Functions
+
+    Mutating variables is not allowed. Function doesn't store or modify any variable. It only takes inputs and returns outputs.
+    Allows you to pass in the same thing and get the same answer rather than an addition to the original answer.
+
 sort() and sorted()
 
     sort() - changes on hard copy. in-place sorting
