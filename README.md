@@ -11,7 +11,12 @@ Generators
 Functional Programming - Annonymous Functions
 
     Mutating variables is not allowed. Function doesn't store or modify any variable. It only takes inputs and returns outputs.
+
     Allows you to pass in the same thing and get the same answer rather than an addition to the original answer.
+
+Callbacks
+
+    Callback function will execute once/if the first function completes.
 
 sort() and sorted()
 
