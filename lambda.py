@@ -4,7 +4,7 @@ import time
 
 # callback
 def doSomethingCB(cb=None):
-    time.sleep(2)
+    time.sleep(1)
     if cb is not None:
         cb()        # call the callback
 
@@ -35,3 +35,38 @@ def callback() -> str:
 
 doMoreWork(callback)
 doMoreWork()        # if cb not given, it defaults to None
+
+
+doMoreWork(finishedLambda)
+# msg = cb()		# will print we finished lamba version - define a function as an expression
+# print(msg)		# then none since lamba is one line
+
+
+
+# lambda : <expression body here>
+# translation to
+# def function():
+# 	return <expression body here>
+
+
+
+# Callbacks with parameters
+def doLongWork(cb=None):
+    time.sleep(1)
+    x = "long work took 1 second"
+    if cb is not None:
+        msg = cb(x)
+        print(msg)
+
+def callbackLongWork(x: str) -> str:
+    return 'we finished ' + x
+
+doLongWork(callbackLongWork)
+
+# to do this in lambda
+cbLongWorkLambda = lambda x: 'we finished (lambda version)' + x
+
+def cbLongWorkLambdaExpanded(x: str, y: str) -> str:
+    return 'we finished (lambda version) ' + x + y
+
+doLongWork(cbLongWorkLambda)
