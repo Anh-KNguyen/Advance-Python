@@ -24,6 +24,13 @@ Lambda
     
     Lambda lets you define a function as an expression and can also be passed into a function.
     
+Currying
+
+    Currying arguements is where you return a function that takes another parameter, rather than having multiple parameters in one function.
+    
+    In a sense, it lazily evaluates parameters of a function.
+    
+
 Functions
 
     Functions can be assigned to variables and you can invoke a function call on that variable.
