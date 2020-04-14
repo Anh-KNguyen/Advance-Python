@@ -58,3 +58,7 @@ partialSum = threeSum(5)    # partialSum is a two parameter curry function F(y, 
 # partialSum: y -> z -> int
 
 print(executeBinaryFunctionCurry(partialSum, 6, 7))
+
+
+# Note: for currying, partial() exists to "freeze" some portion of a function's arguments
+# resulting in a new object
