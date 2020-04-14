@@ -23,6 +23,12 @@ Lambda
     Does function in-line. Only one line.
     
     Lambda lets you define a function as an expression and can also be passed into a function.
+    
+Functions
+
+    Functions can be assigned to variables and you can invoke a function call on that variable.
+    
+    You can create functions in real time, and you can return functions as a result value of a function as well.
 
 sort() and sorted()
 
