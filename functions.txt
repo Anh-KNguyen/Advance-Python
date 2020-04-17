@@ -1,0 +1,6 @@
+filter()
+map()
+zip()
+sorted(, key=callback)
+reduce()
+partial()
